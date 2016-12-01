@@ -21,6 +21,30 @@ var catalogs = [
 ];
 var ecsites = [
 {
+ image:'yadokurabe-min-header',
+ title:'沖縄リゾートホテルランキング',
+ desc:'誰と行くか、何をするか別に、その人に合った沖縄のリゾートホテルを提案。ランキング形式に紹介しました。',
+ point:'リゾートホテルの取材、編集、企画、ライティング、ページディレクションを担当。',
+ site:'tabirai',
+ anker:'snapshot.html?yadokurabe'
+},
+{
+ image:'kanucha-min-header',
+ title:'やんばるの 大自然に溶け込む カヌチャステイ',
+ desc:'沖縄本島にあるリゾートホテル「カヌチャベイリゾート」の広告記事の1ページ目。何もしない贅沢をテーマにリゾートライフを提案！',
+ point:'リゾートホテルの広告記事の取材、編集、ライティング、ページディレクションを担当。',
+ site:'tabirai',
+ anker:'snapshot.html?kanucha'
+},
+{
+ image:'kanucha2-min-header',
+ title:'やんばるの 大自然に溶け込む カヌチャステイ',
+ desc:'沖縄本島にあるリゾートホテル「カヌチャベイリゾート」の広告記事の2ページ目。何もしない贅沢をテーマにリゾートライフを提案！',
+ point:'リゾートホテルの広告記事の取材、編集、ライティング、ページディレクションを担当。',
+ site:'tabirai',
+ anker:'snapshot.html?kanucha2'
+},
+{
  image:'c5a09e_28e817eaf0ec411fbdc78bd2bfe878dd',
  title:'2100年出航。光速100万km/sで宇宙を駆け抜ける、みらい自転車の旅≪1泊7日(延泊OK)/宇宙会席フルコース付/火星人の添い寝付≫',
  desc:'・グルーポンが開発！高速ジェット搭載、みらい自転車で銀河横断\n・夕食は、エイリアンの姿煮や土星鍋などのフルコース\n・満天の恒星に包まれた、源星100%かけ流しの宇宙風呂は別格\n・美しき火星人との、夢のような添い寝プランもご用意\n・2100年1月3日には、第一回銀河系チャリグランプリも開催！\n※2100年までご存命でない方は、ご子孫の方へお譲り願います',
@@ -67,28 +91,5 @@ var ecsites = [
  site:'groupon',
  anker:'snapshot.html?grpn32794'
 },
-{
- image:'yadokurabe-min-header',
- title:'沖縄リゾートホテルランキング',
- desc:'沖縄のいい宿研究会 厳選\nらんらんらんらんらんらんらんらん',
- point:'リゾートホテルの広告記事を作成したよ!!!',
- site:'tabirai',
- anker:'snapshot.html?yadokurabe'
-},
-{
- image:'kanucha-min-header',
- title:'やんばるの 大自然に溶け込む カヌチャステイ',
- desc:'沖縄のいい宿研究会 厳選\nらんらんらんらんらんらんらんらん',
- point:'リゾートホテルの広告記事を作成したよ!!!',
- site:'tabirai',
- anker:'snapshot.html?kanucha'
-},
-{
- image:'kanucha2-min-header',
- title:'やんばるの 大自然に溶け込む カヌチャステイ',
- desc:'沖縄のいい宿研究会 厳選\nらんらんらんらんらんらんらんらん',
- point:'リゾートホテルの広告記事を作成したよ!!!',
- site:'tabirai',
- anker:'snapshot.html?kanucha2'
-}
+
 ];
