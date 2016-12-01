@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="らんらんらんらんらん">
+<meta name="keyword" content="">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+<title>Ranaketa</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.light_blue-yellow.min.css">
+<link rel="stylesheet" href="src/ranaketa.css">
+<style>
+</style>
+</head>
+<body>
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--no-desktop-drawer-button">
+
+<!-- ヘッダー [-->
+<div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+  <div class="mdl-layout__header-row">
+    <span class="android-title mdl-layout-title">
+      <a href=""><img class="android-logo-image" src="images/ranaketa-logo.png"></a>
+    </span>
+    <div class="android-header-spacer mdl-layout-spacer"></div>
+    <div class="android-navigation-container">
+      <nav class="android-navigation mdl-navigation">
+        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#top">Home</a>
+        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#profile">プロフィール</a>
+        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#catalog">カタログ</a>
+        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#ec">ECサイト</a>
+      </nav>
+    </div>
+    <span class="android-mobile-title mdl-layout-title">
+      <a href=""><img class="android-logo-image" src="images/ranaketa-logo.png"></a>
+    </span>
+  </div>
+</div>
+<div class="android-drawer mdl-layout__drawer">
+  <span class="mdl-layout-title" id="ranaketa-mobile-title">
+  </span>
+  <nav class="mdl-navigation">
+    <a class="mdl-navigation__link" href="#top" onclick="document.body.querySelector('.mdl-layout__obfuscator.is-visible').click();">Home</a>
+    <a class="mdl-navigation__link" href="#profile" onclick="document.body.querySelector('.mdl-layout__obfuscator.is-visible').click();">プロフィール</a>
+    <a class="mdl-navigation__link" href="#catalog" onclick="document.body.querySelector('.mdl-layout__obfuscator.is-visible').click();">カタログ</a>
+    <a class="mdl-navigation__link" href="#ec" onclick="document.body.querySelector('.mdl-layout__obfuscator.is-visible').click();">ECサイト</a>
+    <div class="android-drawer-separator"></div>
+  </nav>
+</div>
+<!--] ヘッダー -->
+
+<div class="android-content mdl-layout__content">
+
+<div id="apps"></div>
+
+<!-- ホーム [-->
+<a name="top" id="top"></a>
+  <div class="android-be-together-section mdl-typography--text-center">
+  <div class="logo-font android-slogan">Ran Aketagawa Portfolio</div>
+  <div class="logo-font android-sub-slogan">welcome to Ranaketa. be yourself. do your thing. see what's going on.</div>
+</div>
+<!--] ホーム -->
+
+<!-- プロフィール [-->
+<a name="profile" id="profile"></a>
+<div class="android-more-section mdl-typography--text-center">
+  <div class="mdl-grid">
+    <h3 class="mdl-cell mdl-cell--12-col mdl-typography--display-1-color-contrast ranaketa-font">プロフィール</h3>
+     <div class="mdl-cell mdl-cell--6-col">
+       <div class="mdl-card__media" style="background:#fff;">
+         <img src=" images/ranaketa_profile.png" border="0" alt="" style="border:1px solid #ddd; padding:8px; width:80%;">
+       </div>
+     </div>
+     <div class="mdl-cell mdl-cell--6-col mdl-card__supporting-text no-padding">
+         <p style="text-align:left;">
+           1983年5月 東京都生まれ<br />
+           <br />
+           2006年3月 法政大学文学部英文学科卒業<br />
+           <br />
+           2006年4月 ITソフトウェアの会社入社<br />
+           <br />
+           2006年11月 株式会社宝島ワンダーネット入社<br />
+           ファッション通販カタログの編集・ライターとしてデビュー<br />
+           <br />
+           2010年8月 グルーポンジャパン株式会社入社<br />
+           ECサイトのクーポンライターとして1万点以上の作品をライティング<br />
+           <br />
+           2014年11月 株式会社パム入社<br />
+           リゾートホテル記事の取材、編集、ライター、Webディレクション<br />
+         </p>
+         <p id="ranaketa-profile-link"><img src="images/gmail-icon.png" />ultraposko@gmail.com</p>
+         <p id="ranaketa-profile-link"><img src="images/facebook-icon.png" /><a href="https://www.facebook.com/ran.aketagawa" target="_blank">facebook.com/ran.aketagawa</a></p>
+     </div>
+  </div>
+</div>
+<!--] プロフィール -->
+
+<!-- カタログ [-->
+<a name="catalog" id="catalog"></a>
+<div class="android-screen-section mdl-typography--text-center" style="background:#f3f3f3;">
+  <div class="mdl-typography--display-1-color-contrast ranaketa-font" style="margin-bottom:20px;">カタログ<br /><span style="font-size:60%; color:#999;">Editorial,Writing,Styling</span></div>
+  <div class="android-screens" id="react-catalog-area">
+  </div>
+</div>
+<!--] カタログ -->
+
+<!-- EC [-->
+<a name="ec" id="ec"></a>
+<div class="android-more-section mdl-typography--text-center">
+<div class="android-section-title mdl-typography--display-1-color-contrast ranaketa-font">ECサイト<br /><span style="font-size:60%; color:#999;">Editorial,Writing</span></div>
+  <div id="react-ecsite-area">
+  </div>
+</div>
+<!--] EC -->
+
+<!-- Footer [-->
+<footer class="android-footer mdl-mega-footer">
+<div class="mdl-mega-footer--top-section">
+<div class="mdl-mega-footer--right-section">
+<a class="mdl-typography--font-light" href="#top">Back to Top<i class="material-icons">expand_less</i></a>
+</div>
+</div>
+<div class="mdl-mega-footer--middle-section" style="text-align:center;">
+<p>Ranaketa &copy; <script type="text/javascript">myDate=new Date();myYear=myDate.getFullYear();document.write(myYear);</script> All rights reserved.</p>
+</div>
+</footer>
+<!--] Footer -->
+
+  </div>
+</div>
+<script src="src/react.min.js"></script>
+<script src="src/react-dom.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+<script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="src/json-config.js"></script>
+<script src="src/react-ranaketa.js" type="text/babel"></script>
+<script src="src/ranaketa.js"></script>
+</body>
+</html>

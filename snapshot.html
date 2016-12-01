@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="ランランランランラン">
+<meta name="keyword" content="">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+<title>Ranaketa</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.light_blue-yellow.min.css">
+<link rel="stylesheet" href="src/ranaketa.css">
+<style>
+</style>
+</head>
+<body>
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--no-desktop-drawer-button">
+
+<!-- ヘッダー [-->
+<div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+  <div class="mdl-layout__header-row">
+    <span class="android-title mdl-layout-title">
+      <img class="android-logo-image" src="images/ranaketa-logo.png">
+    </span>
+    <span class="android-mobile-title mdl-layout-title">
+      <img class="android-logo-image" src="images/ranaketa-logo.png">
+    </span>
+  </div>
+</div>
+<!--] ヘッダー -->
+
+<div class="android-content mdl-layout__content">
+
+<div id="apps" style="border-top:2px solid #eee;"></div>
+<a name="top" id="top"></a>
+
+<!-- 画像 [-->
+<a name="profile" id="profile"></a>
+<div class="android-more-section mdl-typography--text-center">
+  <div class="android-card-container mdl-grid">
+     <div class="mdl-cell mdl-cell--12-col mdl-cell--8-col-tablet mdl-cell--8-col-phone mdl-card mdl-shadow--3dp">
+       <div class="mdl-card__media" style="background:#fff;" id="snapshot"></div>
+     </div>
+  </div>
+</div>
+<!--] 画像 -->
+
+<!-- Footer [-->
+<footer class="android-footer mdl-mega-footer">
+<div class="mdl-mega-footer--top-section">
+<div class="mdl-mega-footer--right-section">
+<a class="mdl-typography--font-light" href="#top">Back to Top<i class="material-icons">expand_less</i></a>
+</div>
+</div>
+<div class="mdl-mega-footer--middle-section" style="text-align:center;">
+<p>Ranaketa &copy; <script type="text/javascript">myDate=new Date();myYear=myDate.getFullYear();document.write(myYear);</script> All rights reserved.</p>
+</div>
+</footer>
+<!--] Footer -->
+
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+<script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="src/ranaketa.js"></script>
+<script>
+var href = window.location.href;
+var i = href.search(".html");
+$("div#snapshot").append('<img src="images/'+ href.substr(i+6,16) +'-min.jpg" style="border:1px solid #ddd; padding:8px;">');
+</script>
+</body>
+</html>
