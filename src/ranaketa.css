@@ -555,3 +555,4 @@ p#ranaketa-profile-link a:visited {color:#1da1f2; text-decoration:none;}
 p.ranaketa-ecsite-point {font-size:100%; color:#8bc34a; margin-top:20px; font-weight:900 !important;}
 div.ranaketa-ecsite-desc {font-size:100%; color:#999;}
 div.ranaketa-ecsite-desc p {margin:0px;}
+div#react-ecsite-area a img:hover {opacity:0.5;}
