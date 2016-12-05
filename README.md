@@ -1,2 +1,2 @@
-# Ranaketa
+# RanAketa
 Ran Aketagawa Portfolio
