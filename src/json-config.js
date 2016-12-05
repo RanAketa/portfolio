@@ -29,6 +29,16 @@ var ecsites = [
  anker:'snapshot.html?yadokurabe'
 },
 {
+ image:'onsenkurabe-min-header',
+ title:'沖縄で温泉がある宿くらべ',
+ desc:'沖縄本島で温泉のあるホテルを提案。おすすめポイントを混じえてランキング形式で紹介しました。',
+ point:'リゾートホテルの取材、編集、企画、ライティング、ページディレクションを担当。',
+ site:'tabirai',
+ anker:'snapshot.html?onsenkurabe'
+},
+{
+},
+{
  image:'kanucha-min-header',
  title:'やんばるの 大自然に溶け込む カヌチャステイ',
  desc:'沖縄本島にあるリゾートホテル「カヌチャベイリゾート」の広告記事の1ページ目。何もしない贅沢をテーマにリゾートライフを提案！',
@@ -43,6 +53,8 @@ var ecsites = [
  point:'リゾートホテルの広告記事の取材、編集、ライティング、ページディレクションを担当。',
  site:'tabirai',
  anker:'snapshot.html?kanucha2'
+},
+{
 },
 {
  image:'c5a09e_28e817eaf0ec411fbdc78bd2bfe878dd',
@@ -60,6 +72,8 @@ var ecsites = [
  anker:'snapshot.html?grpn8622'
 },
 {
+},
+{
  image:'c5a09e_9e0f21af43c44a08b7fce38eb4178727',
  title:'大切な人とすごす、贅沢な年越し≪ホテルディナー＋ヘリクルーズ＋スイートルーム宿泊＋リムジン送迎≫1組2名様プレゼント',
  desc:'・2012年の締めくくりに、贅沢な年越しプランをご用意\n・ベイエリアのホテルオークラ東京ベイにて豪華ディナー\n・東京の美しい夜景を堪能できる、ヘリクルーズ\n・宿泊はリーガロイヤルホテル東京のクラウンスイートルーム\n・ベンツSクラスの高級リムジンにて送迎',
@@ -74,6 +88,8 @@ var ecsites = [
  point:'ライティングを担当。社内の訴求性グランプリで1位を獲得した案件です。',
  site:'groupon',
  anker:'snapshot.html?grpn45058'
+},
+{
 },
 {
  image:'c5a09e_62feda0a12304464b1662af0e3abe64a',
