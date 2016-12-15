@@ -6,7 +6,7 @@ class ClsCatalogList extends React.Component {
       rows.push(
         <div className="android-auto android-screen" style={catalog.cssName}>
         <img className="android-screen-image" src={'images/'+ catalog.image +'.jpg'} />
-        <p>sweet通販カタログ</p>
+        <p>{catalog.title}</p>
         </div>
       );
     });
