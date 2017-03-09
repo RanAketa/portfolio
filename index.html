@@ -42,10 +42,11 @@
   </span>
   <nav class="mdl-navigation">
     <a class="mdl-navigation__link" href="#top" onclick="document.body.querySelector('.mdl-layout__obfuscator.is-visible').click();">Home</a>
-    <a class="mdl-navigation__link" href="#profile" onclick="document.body.querySelector('.mdl-layout__obfuscator.is-visible').click();">プロフィール</a>
     <a class="mdl-navigation__link" href="#catalog" onclick="document.body.querySelector('.mdl-layout__obfuscator.is-visible').click();">カタログ</a>
     <a class="mdl-navigation__link" href="#ec" onclick="document.body.querySelector('.mdl-layout__obfuscator.is-visible').click();">ECサイト</a>
-    <div class="android-drawer-separator"></div>
+    <a class="mdl-navigation__link" href="#profile" onclick="document.body.querySelector('.mdl-layout__obfuscator.is-visible').click();">プロフィール</a>
+
+<div class="android-drawer-separator"></div>
   </nav>
 </div>
 <!--] ヘッダー -->
@@ -62,6 +63,24 @@
 </div>
 <!--] ホーム -->
 
+<!-- カタログ [-->
+<a name="catalog" id="catalog"></a>
+<div class="android-screen-section mdl-typography--text-center" style="background:#f3f3f3;">
+  <div class="mdl-typography--display-1-color-contrast ranaketa-font" style="margin-bottom:20px;">カタログ<br /><span style="font-size:60%; color:#999;">Editorial,Writing,Styling</span></div>
+  <div class="android-screens" id="react-catalog-area">
+  </div>
+</div>
+<!--] カタログ -->
+
+<!-- EC [-->
+<a name="ec" id="ec"></a>
+<div class="android-more-section mdl-typography--text-center">
+<div class="android-section-title mdl-typography--display-1-color-contrast ranaketa-font">ECサイト<br /><span style="font-size:60%; color:#999;">Editorial,Writing</span></div>
+  <div id="react-ecsite-area">
+  </div>
+</div>
+<!--] EC -->
+  
 <!-- プロフィール [-->
 <a name="profile" id="profile"></a>
 <div class="android-more-section mdl-typography--text-center">
@@ -74,10 +93,6 @@
      </div>
      <div class="mdl-cell mdl-cell--6-col mdl-card__supporting-text no-padding">
          <p style="text-align:left;">
-           1983年5月 東京都生まれ<br />
-           <br />
-           2006年3月 法政大学文学部英文学科卒業<br />
-           <br />
            2006年11月 株式会社宝島ワンダーネット入社<br />
            ファッション通販カタログの編集・ライターとしてデビュー<br />
            <br />
@@ -97,24 +112,6 @@
   </div>
 </div>
 <!--] プロフィール -->
-
-<!-- カタログ [-->
-<a name="catalog" id="catalog"></a>
-<div class="android-screen-section mdl-typography--text-center" style="background:#f3f3f3;">
-  <div class="mdl-typography--display-1-color-contrast ranaketa-font" style="margin-bottom:20px;">カタログ<br /><span style="font-size:60%; color:#999;">Editorial,Writing,Styling</span></div>
-  <div class="android-screens" id="react-catalog-area">
-  </div>
-</div>
-<!--] カタログ -->
-
-<!-- EC [-->
-<a name="ec" id="ec"></a>
-<div class="android-more-section mdl-typography--text-center">
-<div class="android-section-title mdl-typography--display-1-color-contrast ranaketa-font">ECサイト<br /><span style="font-size:60%; color:#999;">Editorial,Writing</span></div>
-  <div id="react-ecsite-area">
-  </div>
-</div>
-<!--] EC -->
 
 <!-- Footer [-->
 <footer class="android-footer mdl-mega-footer">
