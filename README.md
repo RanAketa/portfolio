@@ -1,2 +1,2 @@
 # RanAketa
-Ran Aketagawa Portfolio
+Portfolio
